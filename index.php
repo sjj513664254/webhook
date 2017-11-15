@@ -1,3 +1,4 @@
 <?php
-echo 1111;
+exec('whoami',$out);
+echo $out;
 ?>
