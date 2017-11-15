@@ -1,4 +1,4 @@
 <?php
 exec('whoami',$out);
-echo $out;
+var_dump($out);
 ?>
